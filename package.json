@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "watch": "npx watchify ./public/javascripts/script.js -o ./public/bundle.js"
   },
   "dependencies": {
