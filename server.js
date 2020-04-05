@@ -16,6 +16,7 @@ app.use('/', indexRouter);
 
 let clients = 0;
 io.on('connection', function(socket){
+  console.log('connected clients --->>',clients)
   socket.on("NewClient", function(){
     if(clients < 2){
       if(clients == 1 ){
