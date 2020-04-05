@@ -1,0 +1,23 @@
+{
+  "name": "create-webrtc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "watch": "npx watchify ./public/javascripts/script.js -o ./public/bundle.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "simple-peer": "^9.6.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "watchify": "^3.11.1"
+  }
+}
